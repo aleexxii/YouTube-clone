@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&family=Roboto:wght@300;400;700&display=swap');
+.all-prop {
+    display: grid;
+    grid-template-columns: 74px 1fr 1fr 1fr;
+    grid-template-rows: 56px 56px 326.74px 326.74px;
+    grid-template-areas: 
+        "header header header header"
+        "sidebar nav nav nav"
+        "sidebar content1 content1 content1"
+        "sidebar content2 content2 content2"
+        "sidebar content3 content3 content3"
+        "sidebar content4 content4 content4"
+    ;
+    padding: 8px;
+    background-color: #0f0f0f;
+}
+nav {
+    background-color: #0f0f0f;
+    grid-area: nav;
+}
+header {
+    background-color: #0f0f0f;
+    grid-area: header;
+}
+#SideBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f0f;
+    grid-area: sidebar;
+}
+#content1{
+    grid-area: content1;
+}
+#content2{
+    grid-area: content2;
+}
+
+#content3{
+    grid-area: content3;
+}
+#content4{
+    grid-area: content4;
+}

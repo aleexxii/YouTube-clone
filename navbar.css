@@ -1,0 +1,148 @@
+.section {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    min-width: fit-content;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 12px 0 12px 12px;
+    background-color:#272727;
+}
+.section:hover{
+    background-color: #f1f1f134;
+}
+.section span {
+    font-family: 'Roboto','Arial','sans-serif';
+    display: flex;
+    padding: 0 12px;
+    color: #fff;   
+}
+.cont-ite {
+    position: fixed;
+    background-color: #0f0f0f;
+    width: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left:55px;
+    overflow-x: scroll;
+}
+.cont-ite::-webkit-scrollbar {
+    display: none;
+}
+.cha-to-rou {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #0F0F0F;
+}
+.cha-to-rou:hover {
+    background-color: #272727;
+}
+/* Side Bar */
+
+.side-full-len {
+    position: fixed;
+    width: 64px;
+    height: 370px;
+
+}
+.div-single-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 74px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.div-single-col:hover{
+    background-color: #272727;
+}
+.icon-text {
+    color: #fff;
+    font-family: 'Roboto','Arial','sans-serif';
+    font-size: 10px;
+}
+
+/* Video sectioin */
+
+.main-con-vid {
+    display: flex;
+    width: 100%;
+    height: 366.74px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    /* margin: 0px 16px; */
+}
+.img-con-vid {
+    height: 186.74px;
+    width: 331.99px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img-con-vid:hover {
+    overflow: visible;
+}
+.thumbnail {
+    width: 100%;
+    height: 100%; 
+}
+.channel-view {
+    display: flex;
+    /* padding: 0px 24px 0px 0px; */
+    height: 100px;
+}
+.channel-logo {
+    display: flex;
+    width: 48px;
+    height: 100px;
+}
+.logo-pic {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    margin: 12px 12px 0px 0px;
+    border-radius: 50%;
+}
+.channel-logo-in-sub{
+    border-radius: 50%;
+} 
+.chan-name-vid-name {
+    width: 283.99px;
+    height: 100px;
+}
+.video-name {
+    width: 100%;
+    height: 44px;
+    margin: 12px 0px 4px 0px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.chan-name-vid-name {
+    display: flex;
+    flex-direction: column;
+}
+.title-name {
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+}
+.sub-name-views-ago {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.vid-channel-name {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+.vid-channel-name:hover {
+    color: #fff;
+}
+.time-ago {
+    color: #AAAAAA;
+}
